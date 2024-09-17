@@ -1,0 +1,20 @@
+section{
+    border: solid red 1px;
+}
+
+#notifications{
+    display: flex; 
+    flex-direction: row ;
+    justify-content: space-between;
+    row-gap: 100px;
+    
+
+}
+
+.people{
+    width: 70%; 
+    height: 80px;
+    border: solid red 1px;
+    border-radius: 5px;
+ 
+}
