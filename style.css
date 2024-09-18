@@ -43,9 +43,30 @@ section{
     .textContainer{
         display: flex;
         flex-direction: column;  
+    
     }
-    .time{
+    #pop-Up{
+      border: solid red 1px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .popUp {
+        position: absolute;
+        bottom: 20%; /* Aligns the pop-up to the bottom of the .people container */
+    
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 90%;
+        padding: 10px;
        
-        border: solid red 1px;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     }
+
+    #large{
+        height: 150px;
+    }
+    
+
 }
